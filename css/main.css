@@ -1,0 +1,130 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 380px;
+    height: 200px;
+    float: left;
+    border-style: solid;
+    border-color: #dedbdc;
+    border-width: medium;
+    adding-left: 10px;
+    padding-right: 10px;
+}
+
+/***** HEADER *****/
+header {
+    height: 100px;
+
+}
+header h1 {
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+header h1 span {
+  color: #77a466;
+
+}
+
+nav {
+    float: right;
+    padding: 25px 25px;
+}
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    text-align: center;
+    padding: 5px;
+}
+
+/*****About*****/
+#about .full-width {
+    padding-right: 50px;
+
+
+  }
+  .cover-photo {
+  	height: auto;
+  	float: left;
+    padding-bottom: 20px;
+  }
+  .cover-photo img {
+  	border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+  }
+
+  #about h2 {
+    text-transform: uppercase;
+    color: #77a466;
+    font-size: 18px;
+  }
+  /*****Content*****/
+  #content p {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: none;
+  }
+#content {
+  height: 200px;
+  text-align: center;
+  line-height: 40px
+  padding-left:50px;
+  padding-right:50px;
+  text-decoration: none;
+}
+#specials span{
+  color: #77a466;
+}
+
+#specials {
+  line-height: 37px;
+}
+#content h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+
+
+}
+/*****Footer*****/
+footer h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700px;
+  
+
+}
+
+
+footer h3 span {
+  font-family: 'satisfy', cursive;
+  color: #77a466;
+  text-transform: lowercase;
+
+}
+
+#footer {
+  padding top: 20px;
+}
